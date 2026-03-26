@@ -1,0 +1,121 @@
+# ========================================
+# .gitignore para Proyecto Hospital SOA
+# ========================================
+
+# ==================== CLAUDE ====================
+# Carpeta de Claude Code (no subir al repositorio)
+.claude/
+*.claude
+
+# ==================== MAVEN ====================
+# Carpetas de compilación de Maven
+**/target/
+**/bin/
+**/build/
+
+# Archivos de Maven wrapper
+**/.mvn/wrapper/maven-wrapper.jar
+
+# ==================== SPRING BOOT ====================
+# Archivos de Spring Boot DevTools
+**/.spring-boot-devtools.properties
+**/spring-boot-devtools.properties
+
+# ==================== JAVA ====================
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos temporales de Java
+hs_err_pid*
+replay_pid*
+
+# ==================== IDE ====================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+
+# ==================== SISTEMA OPERATIVO ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==================== OTROS ====================
+# Archivos de configuración local
+application-local.properties
+application-local.yml
+
+# Archivos de base de datos H2 (si se usan)
+*.db
+*.mv.db
+*.trace.db
+
+# Archivos de dependencias npm (si hay frontend)
+node_modules/
+package-lock.json
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Archivos de coverage y testing
+coverage/
+.nyc_output/
+*.lcov
+
+# ==================== PROYECTO ESPECÍFICO ====================
+# PDF de la tarea (opcional - puedes comentar esta línea si quieres subirlo)
+POS_.pptx.pdf
+
+# Archivos de prueba temporales
+test-output/
